@@ -1,5 +1,5 @@
 # discord image combiner
-This Python script generates an image that looks like one image when in light theme and another when in dark theme.
+This Python script generates an image that looks like one image when in Discord's light theme and another when in dark theme.
 
 ## how to use
 ```
