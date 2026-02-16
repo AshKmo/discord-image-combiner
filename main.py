@@ -15,8 +15,8 @@ def contrastify(pixel, color):
 
 pixel_count = dark.width * dark.height
 
-dark_count = floor(5 * pixel_count / 8)
-light_count = floor(2 * pixel_count / 8)
+dark_count = floor(pixel_count / 2)
+light_count = ceil(pixel_count / 2)
 
 for y in range(0, dark.height):
 	for x in range(0, dark.width):
